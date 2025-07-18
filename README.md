@@ -2,7 +2,7 @@
 
 Clone the repository with submodules:
 ```
-git clone --recursive https://github.com/Eruvae/vmp_ws.git
+git clone --recursive https://github.com/AllenIsaacJose/GO-VMP.git
 ```
 
 Run the setup script to configure the workspace:
