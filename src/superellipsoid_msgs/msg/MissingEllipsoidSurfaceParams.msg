@@ -1,0 +1,5 @@
+Header header
+sensor_msgs/PointCloud2[] missing_surfaces
+sensor_msgs/PointCloud2 centers_prior
+sensor_msgs/PointCloud2 centers_optimized
+float32[] mapped_surface
