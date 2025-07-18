@@ -1,4 +1,6 @@
-# Usage
+# Global Optimization for View Motion Planning(GO-VMP)
+
+## Usage
 
 Clone the repository with submodules:
 ```
@@ -20,11 +22,15 @@ Source the workspace:
 ```
 source devel_release/setup.bash
 ```
-# Setup with Docker and VS Code
+## Setup with Docker and VS Code
 
 Install Docker, VS Code, and the Dev Containers extension in VS Code. The repository contains a Dockerfile and devcontainer.json in the .devcontainer folder. When opening the folder with VS Code, it should ask you whether you want to reopen the folder in a container. If not, you can press F1 and search for "Dev Containers: Rebuild and Reopen in Container". After the container is open, run "docker_setup_workspace.sh" to initialize and build the workspaces. Subsequently, you can simply run "catkin build". Run "source devel_release/setup.bash" to source the workspace.
 
-# Run view motion planner (example)
+## Setting up Gurobi Solver
+
+Follow the [link](https://ca.cs.uni-bonn.de/doku.php?id=tutorial:gurobi-install) to install the Gurobi solver on Linux systems.
+
+## Run view motion planner (example)
 
 Launch simulation:
 ```
