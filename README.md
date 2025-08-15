@@ -9,7 +9,7 @@ git clone --recursive https://github.com/AllenIsaacJose/GO-VMP.git
 
 Run the setup script to configure the workspace:
 ```
-cd vmp_ws
+cd GO-VMP
 ./setup_workspace.sh
 ```
 
