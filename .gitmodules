@@ -1,0 +1,3 @@
+[submodule "voxblox_ws"]
+	path = voxblox_ws
+	url = https://github.com/Eruvae/voxblox_ws.git
