@@ -28,7 +28,7 @@ Install Docker, VS Code, and the Dev Containers extension in VS Code. The reposi
 
 ## Setting up Gurobi Solver
 
-Follow the [link](https://ca.cs.uni-bonn.de/doku.php?id=tutorial:gurobi-install) to install the Gurobi solver on Linux systems.
+Follow the [link](https://ca.cs.uni-bonn.de/doku.php?id=tutorial:gurobi-install) to install the Gurobi solver version 11.0.1 on Linux systems.
 
 ## Run view motion planner (example)
 
