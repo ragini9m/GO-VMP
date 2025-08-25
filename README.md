@@ -38,6 +38,14 @@ Install Docker, VS Code, and the Dev Containers extension in VS Code. The reposi
 
 Follow the [link](https://ca.cs.uni-bonn.de/doku.php?id=tutorial:gurobi-install) to install the Gurobi solver version 11.0.1 on Linux systems.
 
+The Gurobi version used can be adjusted in [view_motion_planner/CMakeLists.txt](https://github.com/AllenIsaacJose/GO-VMP/blob/main/src/view_motion_planner/CMakeLists.txt)
+```
+set(GUROBI_HOME "/opt/gurobi1101/linux64")
+
+target_link_libraries(planner_node ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES} ${YAMLCPP_LIBRARIES} ${PCL_LIBRARIES} ${OMPL_LIBRARIES} tbb gurobi_c++ gurobi110)
+target_link_libraries(plan_on_map ${catkin_LIBRARIES} ${OCTOMAP_LIBRARIES} ${YAMLCPP_LIBRARIES} ${PCL_LIBRARIES} ${OMPL_LIBRARIES} tbb gurobi_c++ gurobi110)
+```
+
 ## Run view motion planner (example)
 
 Launch simulation:
