@@ -7,6 +7,13 @@ Clone the repository with submodules:
 git clone --recursive https://github.com/AllenIsaacJose/GO-VMP.git
 ```
 
+### 1. Native Build
+
+**Install prerequisites**
+- Ubuntu 20.04 LTS (Focal Fossa)
+- ros-noetic-desktop-full
+- [Open3D v0.17](https://github.com/isl-org/Open3D/releases/download/v0.17.0/open3d-devel-linux-x86_64-cxx11-abi-cuda-0.17.0.tar.xz)
+
 Run the setup script to configure the workspace:
 ```
 cd GO-VMP
@@ -22,7 +29,8 @@ Source the workspace:
 ```
 source devel_release/setup.bash
 ```
-## Setup with Docker and VS Code
+
+### 2. Setup with Docker and VS Code
 
 Install Docker, VS Code, and the Dev Containers extension in VS Code. The repository contains a Dockerfile and devcontainer.json in the .devcontainer folder. When opening the folder with VS Code, it should ask you whether you want to reopen the folder in a container. If not, you can press F1 and search for "Dev Containers: Rebuild and Reopen in Container". After the container is open, run "docker_setup_workspace.sh" to initialize and build the workspaces. Subsequently, you can simply run "catkin build". Run "source devel_release/setup.bash" to source the workspace.
 
