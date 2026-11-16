@@ -1,5 +1,7 @@
 # Global Optimization for View Motion Planning(GO-VMP)
 
+> **Thesis extension: consistency-aware view selection.** The folder [consistency_overlap/](consistency_overlap/) adds an overlap constraint (g) to the GO-VMP optimization, so that selected views can be registered against each other and pose errors become detectable. It is standalone (C++/Gurobi and Python) and does not change the ROS planner. Setup, build and run commands are in [consistency_overlap/README.md](consistency_overlap/README.md).
+
 ## Usage
 
 Clone the repository with submodules:
